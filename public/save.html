@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="../css/save.css">
+</head>
+<body>
+    <div class="container">
+        <h1>INPUT DB</h1>
+        <br>
+        <!-- 입력창 -->
+        <input type="file" id="input">
+        <!-- 입력 버튼 -->
+        <button id="input-btn"> + </button>
+        <!-- 들어간 DB 리스트 보여주기 -->
+        <br><br>
+        <div class="list">
+        <!-- javascript 동적 추가 부분-->
+        </div>
+        <div class="pagination">
+            <button class="prev-btn">&lt; 이전</button>
+            <span class="page-num"></span>
+            <button class="next-btn">다음 &gt;</button>
+        </div>
+    </div>
+    <script src="../js/save_img_to_db.js"></script>
+</body>
+</html>
